@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style='text-align:center;color:green;'><strong><i><u>TO DELETE ADMIN USER IN ORANGE HRM</u></i></strong></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style='text-align:left;color:blue;'><strong><i><u>Login Steps</u></i></strong></div>]]>
+    </line>
+    <line>
+      <![CDATA[Entered  Admin In Username Textfield]]>
+    </line>
+    <line>
+      <![CDATA[Entered  admin123 In Password Textfield]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Login Button]]>
+    </line>
+    <line>
+      <![CDATA[<div style='text-align:left;color:blue;'><strong><i><u> Validating Admin User Steps</u></i></strong></div>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Admin to add user]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Clicked on UserRole]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on ESS]]>
+    </line>
+    <line>
+      <![CDATA[Entered  Ranga In Inserted Value in field Employee Name]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Ranga]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on  Status field ]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Status Suggestion]]>
+    </line>
+    <line>
+      <![CDATA[Entered  Ranga In Inserted value UserName field ]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Search button]]>
+    </line>
+    <line>
+      <![CDATA[Fetched (1) Record Found From Search Record Count]]>
+    </line>
+    <line>
+      <![CDATA[Verfication Sucessful for total Records !!]]>
+    </line>
+    <line>
+      <![CDATA[Validated UserName as Ranga]]>
+    </line>
+    <line>
+      <![CDATA[Validated UserRole as ESS]]>
+    </line>
+    <line>
+      <![CDATA[Validated Employee Name as Ranga Akunuri]]>
+    </line>
+    <line>
+      <![CDATA[Validated Status as Enabled]]>
+    </line>
+    <line>
+      <![CDATA[<div style='text-align:left;color:blue;'><strong><i><u> Delete Admin User Steps</u></i></strong></div>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Delete icon]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Yes in Delete Alert]]>
+    </line>
+    <line>
+      <![CDATA[Fetched No Records Found From Search Record Count]]>
+    </line>
+    <line>
+      <![CDATA[<div style='text-align:left;color:blue;'><strong><i><u> Logoff Steps</u></i></strong></div>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on  Dashboard]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on  UserIcon]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on  Logout button]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-11-17T21:12:23 IST" name="Suite" finished-at="2025-11-17T21:13:19 IST" duration-ms="56109">
+    <groups>
+    </groups>
+    <test started-at="2025-11-17T21:12:23 IST" name="Test" finished-at="2025-11-17T21:13:19 IST" duration-ms="56109">
+      <class name="Runner.KeywordRunner">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Runner.KeywordRunner@1fdf1c5]" started-at="2025-11-17T21:12:23 IST" name="Launch" finished-at="2025-11-17T21:12:36 IST" duration-ms="13255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="getGetKeyword()[pri:0, instance:Runner.KeywordRunner@1fdf1c5]" started-at="2025-11-17T21:12:36 IST" name="getGetKeyword" finished-at="2025-11-17T21:13:18 IST" duration-ms="42275" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style='text-align:center;color:green;'><strong><i><u>TO DELETE ADMIN USER IN ORANGE HRM</u></i></strong></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div style='text-align:left;color:blue;'><strong><i><u>Login Steps</u></i></strong></div>]]>
+            </line>
+            <line>
+              <![CDATA[Entered  Admin In Username Textfield]]>
+            </line>
+            <line>
+              <![CDATA[Entered  admin123 In Password Textfield]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Login Button]]>
+            </line>
+            <line>
+              <![CDATA[<div style='text-align:left;color:blue;'><strong><i><u> Validating Admin User Steps</u></i></strong></div>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Admin to add user]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Clicked on UserRole]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on ESS]]>
+            </line>
+            <line>
+              <![CDATA[Entered  Ranga In Inserted Value in field Employee Name]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Ranga]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on  Status field ]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Status Suggestion]]>
+            </line>
+            <line>
+              <![CDATA[Entered  Ranga In Inserted value UserName field ]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Search button]]>
+            </line>
+            <line>
+              <![CDATA[Fetched (1) Record Found From Search Record Count]]>
+            </line>
+            <line>
+              <![CDATA[Verfication Sucessful for total Records !!]]>
+            </line>
+            <line>
+              <![CDATA[Validated UserName as Ranga]]>
+            </line>
+            <line>
+              <![CDATA[Validated UserRole as ESS]]>
+            </line>
+            <line>
+              <![CDATA[Validated Employee Name as Ranga Akunuri]]>
+            </line>
+            <line>
+              <![CDATA[Validated Status as Enabled]]>
+            </line>
+            <line>
+              <![CDATA[<div style='text-align:left;color:blue;'><strong><i><u> Delete Admin User Steps</u></i></strong></div>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Delete icon]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Yes in Delete Alert]]>
+            </line>
+            <line>
+              <![CDATA[Fetched No Records Found From Search Record Count]]>
+            </line>
+            <line>
+              <![CDATA[<div style='text-align:left;color:blue;'><strong><i><u> Logoff Steps</u></i></strong></div>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on  Dashboard]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on  UserIcon]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on  Logout button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getGetKeyword -->
+        <test-method is-config="true" signature="quitSession()[pri:0, instance:Runner.KeywordRunner@1fdf1c5]" started-at="2025-11-17T21:13:18 IST" name="quitSession" finished-at="2025-11-17T21:13:19 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitSession -->
+      </class> <!-- Runner.KeywordRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

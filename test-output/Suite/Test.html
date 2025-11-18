@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 17 21:12:23 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>56 seconds (56109 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Runner.KeywordRunner.getGetKeyword()'><b>getGetKeyword</b><br>Test class: Runner.KeywordRunner<br/>
+<a href="#Output-554510956" onClick='toggleBox("Output-554510956", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-554510956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-554510956">
+<div style='text-align:center;color:green;'><strong><i><u>TO DELETE ADMIN USER IN ORANGE HRM</u></i></strong></div><br/>
+<div style='text-align:left;color:blue;'><strong><i><u>Login Steps</u></i></strong></div><br/>
+Entered  Admin In Username Textfield<br/>
+Entered  admin123 In Password Textfield<br/>
+Clicked on Login Button<br/>
+<div style='text-align:left;color:blue;'><strong><i><u> Validating Admin User Steps</u></i></strong></div><br/>
+Clicked on Admin to add user<br/>
+Clicked on Clicked on UserRole<br/>
+Clicked on ESS<br/>
+Entered  Ranga In Inserted Value in field Employee Name<br/>
+Clicked on Ranga<br/>
+Clicked on  Status field <br/>
+Clicked on Status Suggestion<br/>
+Entered  Ranga In Inserted value UserName field <br/>
+Clicked on Search button<br/>
+Fetched (1) Record Found From Search Record Count<br/>
+Verfication Sucessful for total Records !!<br/>
+Validated UserName as Ranga<br/>
+Validated UserRole as ESS<br/>
+Validated Employee Name as Ranga Akunuri<br/>
+Validated Status as Enabled<br/>
+<div style='text-align:left;color:blue;'><strong><i><u> Delete Admin User Steps</u></i></strong></div><br/>
+Clicked on Delete icon<br/>
+Clicked on Yes in Delete Alert<br/>
+Fetched No Records Found From Search Record Count<br/>
+<div style='text-align:left;color:blue;'><strong><i><u> Logoff Steps</u></i></strong></div><br/>
+Clicked on  Dashboard<br/>
+Clicked on  UserIcon<br/>
+Clicked on  Logout button<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>Runner.KeywordRunner@1fdf1c5</td></tr>
+</table><p>
+</body>
+</html>
