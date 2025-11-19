@@ -52,7 +52,7 @@ public class LoginPage extends CommonMethods {
 		// from Base class
 //		waitForElementToBeVisble(usernameTextfield, 5);
 //		usernameTextfield.sendKeys(prop.getProperty("UserName"));
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 //		clearAndSendKeys(usernameTextfield, prop.getProperty("UserName"), "Username Textfield");
 		clearAndSendKeys(usernameTextfield, dataProp.get("UserName"), "Username Textfield");
 
