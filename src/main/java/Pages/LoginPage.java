@@ -69,6 +69,7 @@ public class LoginPage extends CommonMethods {
 		// from Base class
 //		waitElementToBeClickable(loginButton, 5);
 //		loginButton.click();
+		System.out.println("*waiting for login *");
 		click(loginButton, "Login Button");
 		
 		waitForElementToBeVisble(userIcon, 15);
