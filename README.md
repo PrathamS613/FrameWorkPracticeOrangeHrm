@@ -122,19 +122,7 @@ testng.xml
 * Screenshots for failed tests
 * Log files if logging is enabled
 
----
 
-## 🤝 Contributing
-
-Feel free to raise issues or submit pull requests to enhance the framework.
-
----
-
-## ⭐ Show Your Support
-
-If this framework helps you, please ⭐ star the repo!
-
----
 
 Let me know if you want me to:
 ✔ Add badges (Java, Selenium, Maven, TestNG)
